@@ -55,5 +55,6 @@ autoload -U compinit && compinit
 # rbenv
 eval "$(rbenv init -)"
 
-# fresh
-source ~/.fresh/build/shell.sh
+# pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
