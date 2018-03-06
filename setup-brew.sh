@@ -1,0 +1,1 @@
+brew install ack autojump git git-lfs hub node nvm pyenv pyenv-virtualenv rbenv tree wget yarn zsh
