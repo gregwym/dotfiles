@@ -1,0 +1,5 @@
+[user]
+        name = Greg Wang
+        email = gregwym@users.noreply.github.com
+[push]
+        default = current
