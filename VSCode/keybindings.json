@@ -69,7 +69,7 @@
     "command": "-workbench.view.extensions"
   },
   {
-    "key": "ctrl+1",
+    "key": "ctrl+3",
     "command": "workbench.actions.view.problems"
   },
   {
@@ -77,16 +77,12 @@
     "command": "-workbench.actions.view.problems"
   },
   {
-    "key": "ctrl+2",
+    "key": "ctrl+4",
     "command": "workbench.action.output.toggleOutput"
   },
   {
-    "key": "ctrl+3",
+    "key": "ctrl+2",
     "command": "workbench.debug.action.toggleRepl"
-  },
-  {
-    "key": "shift+cmd+d",
-    "command": "docthis.documentThis"
   },
   {
     "key": "cmd+.",
@@ -104,5 +100,31 @@
     "key": "shift+cmd+m",
     "command": "editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "cmd+u",
+    "command": "editor.action.referenceSearch.trigger",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.tasks.runTask"
+  },
+  {
+    "key": "shift+cmd+u",
+    "command": "references-view.find",
+    "when": "editorHasReferenceProvider"
   }
 ]

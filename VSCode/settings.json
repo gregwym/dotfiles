@@ -3,16 +3,12 @@
   "editor.fontSize": 14,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
-  "editor.rulers": [
-    120
-  ],
-  "editor.snippetSuggestions": "top",
+  "editor.rulers": [120],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact",
     "vue-html": "html"
   },
-  "emmet.triggerExpansionOnTab": true,
   "files.exclude": {
     "**/*.pyc": true,
     "**/.DS_Store": true,
@@ -26,10 +22,7 @@
   "prettier.printWidth": 120,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
-  "python.formatting.autopep8Args": [
-    "--max-line-length=120",
-    "--ignore=W191,E101,E111,E26"
-  ],
+  "python.formatting.autopep8Args": ["--max-line-length=120", "--ignore=W191,E101,E111,E26"],
   "python.formatting.provider": "yapf",
   "python.formatting.yapfArgs": [
     // "--style={based_on_style: pep8, use_tabs: true, column_limit: 40, split_before_logical_operator: false}"
@@ -54,8 +47,24 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "material-icon-theme",
-  "gitlens.codeLens.scopes": [
-    "document",
-    "containers"
-  ]
+  "files.associations": {
+    "*.meta": "json",
+    "*.fire": "json",
+    "*.wxss": "scss",
+    "*.wxml": "handlebars",
+    "*.anim": "json",
+    "*.prefab": "json"
+  },
+  "breadcrumbs.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.openFilesInNewWindow": "default",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
