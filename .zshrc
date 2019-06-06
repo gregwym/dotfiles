@@ -59,8 +59,9 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 # nvm
-export NVM_DIR=~/.nvm
-. $(brew --prefix nvm)/nvm.sh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # yarn
 # export PATH="$(yarn global bin):$PATH"
@@ -81,3 +82,4 @@ alias ebw='rm -rf tmp dist && yarn install && bower install && ember build -w'
 alias gbclean='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
 alias zendb='/Users/gregwang/Documents/Repos/zendb/zendb7'
 
+if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
