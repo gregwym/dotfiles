@@ -55,3 +55,11 @@ ln -s ~/.dotfiles/VSCode/snippets/ ~/Library/Application\ Support/Code/User/snip
     - `xabikos.javascriptsnippets-1.5.0`
     - `xabikos.reactsnippets-1.7.0`
     - `zhuangtongfa.material-theme-2.12.6`
+
+- download Chrome plugins
+    - AddGuard AdBlocker
+    - Drag and Go
+    - JSON Formatter
+    - Polar Tab
+    - Postman
+    - Vimium
