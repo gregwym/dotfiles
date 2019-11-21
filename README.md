@@ -4,39 +4,28 @@ Before doing anything, make sure you know what are you doing! Settings applied b
 
 ### 1. Clone repository to hidden .dotfile directory in your home directory
 
-```git clone git@github.com:gregwym/dotfiles.git```
+```git clone git@github.com:gregwym/dotfiles.git ~/.dotfiles```
 
-### 2. Run setup-symlinks.sh.
-
-```source ~/.dotfiles/setup-symlinks.sh```
-
-### 3. Same with setup-macos.sh file.
+### 2. Run setup-macos.sh
 
 ```source ~/.dotfiles/setup-osx.sh```
 
-### 4. Same with setup-brew.sh file.
+### 3. Run setup-brew.sh
 
 ```source ~/.dotfiles/setup-brew.sh```
 
-### 5. symlinked others.
+### 4. Run setup-shell.sh
 
-VSCode:
-```
-ln -s ~/.dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-ln -s ~/.dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-ln -s ~/.dotfiles/VSCode/snippets/ ~/Library/Application\ Support/Code/User/snippets
-```
+```source ~/.dotfiles/setup-shell.sh```
+
+### 5. Run setup-symlinks.sh
+
+```source ~/.dotfiles/setup-symlinks.sh```
+
 
 ### Don't forget about:
 
-- install brew
 - ssh setup
-- download your fav apps from brew:
-
-    ```
-    brew cask install alfred google-chrome visual-studio-code iina spectacle flux
-    ```
-
 - download VSCode plugins
     - `EditorConfig.editorconfig-0.12.1`
     - `PKief.material-icon-theme-3.2.3`
