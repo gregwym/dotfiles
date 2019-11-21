@@ -23,6 +23,16 @@ for file in $files; do
   echo "- - -"
 done
 
+# Create symlinks for VSCode
+echo "Creating symlink for VSCode configs."
+ln -s $dir/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -s $dir/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -s $dir/VSCode/snippets/ ~/Library/Application\ Support/Code/User/snippets
+
+# Create symlinks for zsh theme
+echo "Creating symlink for zsh configs."
+ln -s $dir/oh-my-zsh/themes/mytheme.zsh-theme ~/.oh-my-zsh/themes/mytheme.zsh-theme 
+
 # Lets make it look nicer
 echo ""
 echo "- - - - - - - - - -"
