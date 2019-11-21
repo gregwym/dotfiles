@@ -8,7 +8,7 @@ Before doing anything, make sure you know what are you doing! Settings applied b
 
 ### 2. Run setup-macos.sh
 
-```source ~/.dotfiles/setup-osx.sh```
+```source ~/.dotfiles/setup-macos.sh```
 
 ### 3. Run setup-brew.sh
 
