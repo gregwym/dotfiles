@@ -42,7 +42,6 @@
   "terminal.integrated.scrollback": 10000,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Tomorrow Night",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.tabSizing": "shrink",
