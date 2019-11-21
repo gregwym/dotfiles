@@ -34,6 +34,6 @@ brew cask install sequel-pro
 brew cask install tableplus
 brew cask install github
 brew cask install sourcetree
-brew cask install adobe-acrobat-reader
 brew cask install microsoft-office
+brew cask install adobe-acrobat-reader
 brew cask install dropbox
