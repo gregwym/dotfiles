@@ -1,0 +1,33 @@
+{
+  "recommendations": [
+    "aliyun.aliyun-serverless",
+    "bierner.markdown-mermaid",
+    "bradymholt.pgformatter",
+    "DavidAnson.vscode-markdownlint",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "Equinusocio.vsc-material-theme",
+    "esbenp.prettier-vscode",
+    "foxundermoon.shell-format",
+    "GrapeCity.gc-excelviewer",
+    "jpoissonnier.vscode-styled-components",
+    "kumar-harsh.graphql-for-vscode",
+    "mike-co.import-sorter",
+    "mikestead.dotenv",
+    "ms-python.python",
+    "ms-vscode.Theme-TomorrowKit",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "msjsdiag.debugger-for-chrome",
+    "naumovs.color-highlight",
+    "negokaz.live-server-preview",
+    "Orta.vscode-jest",
+    "PKief.material-icon-theme",
+    "redhat.vscode-yaml",
+    "richie5um2.vscode-sort-json",
+    "shinnn.stylelint",
+    "sleistner.vscode-fileutils",
+    "vlkoti.vscode-sourcemaps-navigator",
+    "wmaurer.change-case",
+    "xabikos.ReactSnippets"
+  ]
+}
