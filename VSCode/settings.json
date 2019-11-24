@@ -65,5 +65,15 @@
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "pgFormatter.functionCase": "uppercase",
+  "nasc-touchbar.addCursorBelow": false,
+  "nasc-touchbar.jumpToBracket": true,
+  "keyboard.touchbar.ignored": [
+    "workbench.action.debug.run"
+  ],
+  "nasc-touchbar.showReferences": true,
+  "nasc-touchbar.goToDefinition": false,
+  "nasc-touchbar.peekDefinition": true,
+  "nasc-touchbar.showCommands": false
 }
