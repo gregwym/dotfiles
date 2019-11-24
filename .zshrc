@@ -72,14 +72,6 @@ setopt hist_ignore_space
 
 # Aliases
 alias pyclean="find . -name '*.pyc' -delete"
-alias ztest="python manage.py test --settings=yourpeople.test_local_settings --reusedb"
-alias ztestdb="python manage.py createtestdb -y --settings=yourpeople.test_local_settings && zendb restart && python manage.py migrateall --settings=yourpeople.test_local_settings -s"
-alias zbuild='./ci/bin/trigger-build.py'
-alias zbuild_all='./ci/bin/trigger-build.py -F'
 alias resolve='code $(git diff --name-only | uniq)'
-alias zpip=$'env LDFLAGS="-L$(brew --prefix openssl)/lib" CFLAGS="-I$(brew --prefix openssl)/include" SWIG_FEATURES="-cpperraswarn -includeall -I$(brew --prefix openssl)/include" pip install -r requirements.txt'
-alias eb='rm -rf tmp dist && yarn install && bower install && ember build'
-alias ebw='rm -rf tmp dist && yarn install && bower install && ember build -w'
 alias gbclean='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
-alias zendb='/Users/gregwang/Documents/Repos/zendb/zendb7'
 
