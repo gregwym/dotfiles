@@ -74,4 +74,5 @@ setopt hist_ignore_space
 alias pyclean="find . -name '*.pyc' -delete"
 alias resolve='code $(git diff --name-only | uniq)'
 alias gbclean='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
+alias proxy='export ALL_PROXY=socks5://127.0.0.1:1080;export HTTP_PROXY=http://127.0.0.1:1087;export HTTPS_PROXY=http://127.0.0.1:1087;'
 
