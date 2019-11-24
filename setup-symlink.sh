@@ -33,6 +33,7 @@ ln -s $dir/VSCode/snippets/ ~/Library/Application\ Support/Code/User/snippets
 echo "Creating symlink for zsh configs."
 rm -rf ~/.oh-my-zsh/custom/themes
 ln -s ~/.dotfiles/oh-my-zsh/custom/themes ~/.oh-my-zsh/custom/themes
+ln -s ~/.dotfiles/oh-my-zsh/custom/zsh-autosuggestions.zsh ~/.oh-my-zsh/custom/zsh-autosuggestions.zsh
 
 # Lets make it look nicer
 echo ""

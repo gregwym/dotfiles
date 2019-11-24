@@ -40,7 +40,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git github sudo node nvm yarn autojump pyenv kubectl)
+plugins=(git github sudo node nvm yarn autojump pyenv kubectl zsh-autosuggestions)
 
 echo "Loading ZSH with plugins (${plugins})"
 source $ZSH/oh-my-zsh.sh
