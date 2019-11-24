@@ -6,6 +6,7 @@ files=(
   ".zshrc"
   ".oh-my-zsh/custom/themes"
   ".oh-my-zsh/custom/zsh-autosuggestions.zsh"
+  ".ssh/config"
 )
 
 # change to the dotfiles directory
