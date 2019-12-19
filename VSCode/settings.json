@@ -39,7 +39,7 @@
     "**/tmp": true
   },
   "terminal.integrated.fontSize": 12,
-  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.scrollback": 200000,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Tomorrow Night",
