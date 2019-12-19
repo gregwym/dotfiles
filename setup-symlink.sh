@@ -4,7 +4,7 @@ set -e
 dir=~/.dotfiles
 files=(
   ".zshrc"
-  ".oh-my-zsh/custom/themes"
+  ".oh-my-zsh/custom/themes/mytheme.zsh-theme"
   ".oh-my-zsh/custom/zsh-autosuggestions.zsh"
   ".ssh/config"
 )
