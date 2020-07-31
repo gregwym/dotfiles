@@ -1,9 +1,11 @@
 {
   "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
   "editor.fontSize": 14,
+  "editor.maxTokenizationLineLength": 50000,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
   "editor.rulers": [120],
+  "editor.suggestSelection": "first",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact",
