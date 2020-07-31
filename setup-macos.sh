@@ -21,15 +21,12 @@ defaults write com.apple.dock mru-spaces -bool false
 # System Preferences > Mission Controll > Group windows by application
 defaults write com.apple.dock expose-group-apps -bool true
 
-# System Preferences > Mission Controll > Dashboard > Off
-defaults write com.apple.dashboard dashboard-enabled-state -int 1
-
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# System Preferences > Keyboard >
+# System Preferences > Keyboard > Key Repeat
 defaults write NSGlobalDomain KeyRepeat -int 2
 
-# System Preferences > Keyboard >
+# System Preferences > Keyboard > Delay Until Repeat
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -37,12 +34,22 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 15
 # System Preferences > Trackpad > Tap to click
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 
+# System Preferences > Accessibility > Pointer Control > Trackpad Options > Eanble dragging > three finger drag
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -int 0
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerVertSwipeGesture -int 0
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerTapGesture -int 0
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadFourFingerHorizSwipeGesture -int 2
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadFourFingerVertSwipeGesture -int 2
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadFourFingerPinchGesture -int 2
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadFiveFingerPinchGesture -int 2
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Finder > Preferences > Show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Finder > View > As List
+# Finder > View > as Columns
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
 # Finder > View > Show Path Bar
